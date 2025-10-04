@@ -40,7 +40,7 @@ export default function ProductForm({ product = {}, categories = [], onSubmit, s
     try {
       const payload: Partial<Product> = {
         name,
-        shortDescription,
+        shotDescription,
         longDescription,
         price: Number(price),
         discountPrice: discountPrice ? Number(discountPrice) : undefined,
@@ -64,7 +64,7 @@ export default function ProductForm({ product = {}, categories = [], onSubmit, s
 
       <div>
         <label className="block text-sm">Short Description</label>
-        <input value={shortDescription} onChange={(e)=>setShortDescription(e.target.value)} className="w-full p-2 border rounded"/>
+        <input value={shotDescription} onChange={(e)=>setshotDescription(e.target.value)} className="w-full p-2 border rounded"/>
       </div>
 
       <div>

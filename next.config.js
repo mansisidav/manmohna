@@ -1,5 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false, // for development only
-};
-export default nextConfig;
+  images: {
+    domains: [
+      "encrypted-tbn0.gstatic.com", // Add any external image domains here
+      "example.com",                 // add more if needed
+    ],
+  },
+  experimental: {
+    appDir: true,
+  },
+}
+
+module.exports = nextConfig

@@ -126,14 +126,14 @@ export default function ReviewsPage() {
     
 
       {/* Background Image */}
-      <div className="fixed inset-0 -z-10">
+      {/* <div className="fixed inset-0 -z-10">
         <img
           src="/krishna-flute.png"
           alt="Krishna Flute Background"
           className="w-full h-full object-cover blur-md scale-110 opacity-30"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/90 to-background" />
-      </div>
+      </div> */}
 
       <main className="flex-1 relative z-10">
         {/* Hero Section */}

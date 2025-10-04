@@ -90,6 +90,8 @@ export default function ProductDetails() {
             
             <p className="text-lg text-muted-foreground leading-relaxed text-pretty">
               {product.longDescription || product.description || "No description available."}
+            </p><p className="text-lg text-muted-foreground leading-relaxed text-pretty">
+              {product.shotDescription || product.description || "No description available."}
             </p>
 
             {/* Price */}
